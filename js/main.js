@@ -11,6 +11,6 @@ console.log("DEVELOPMENT BUILD");
 ReactDOM.render(<App/>, mountElement);
 
 export const hardReload = () => {
-	ReactDOM.unmountComponentAtNode(mountElement);
-	ReactDOM.render(<App/>, mountElement);
+  ReactDOM.unmountComponentAtNode(mountElement);
+  ReactDOM.render(<App/>, mountElement);
 }
