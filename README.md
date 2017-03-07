@@ -1,4 +1,4 @@
-#cy-extension-testbed
+#cyjs-extension-testbed
 For all your ES6 pre-compiled cytoscape extension testing needs
 
 ##Build

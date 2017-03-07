@@ -1,5 +1,5 @@
 {
-  "name": "cy-extension-testbed",
+  "name": "cyjs-extension-testbed",
   "version": "1.0.0",
   "description": "For all your ES6 pre-compiled cytoscape extension testing needs",
   "main": "index.js",
