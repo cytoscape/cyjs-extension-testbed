@@ -15,6 +15,7 @@
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "cytoscape": "^2.7.15",
+    "cytoscape-cose-bilkent": "^1.4.1",
     "cytoscape-dagre": "^1.4.0",
     "cytoscape-edgehandles": "^2.9.0",
     "cytoscape-spread": "^1.2.0",

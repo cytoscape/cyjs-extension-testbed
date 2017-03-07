@@ -5,6 +5,7 @@ import {PageNotFound} from './PageNotFound.jsx';
 import {Edgehandles} from './edgehandles/Edgehandles.jsx';
 import {Spread} from './spread/Spread.jsx';
 import {Dagre} from './dagre/Dagre.jsx';
+import {Cose} from './cose/Cose.jsx';
 
 export class App extends React.Component {
 	render() {
@@ -13,6 +14,7 @@ export class App extends React.Component {
 				<Route path="/edgehandles" component={Edgehandles}/>
 				<Route path="/spread" component={Spread}/>
 				<Route path="/dagre" component={Dagre}/>
+				<Route path="/cose" component={Cose}/>
 				<Route path="*" component={PageNotFound}/>
 			</Router>
 		);
