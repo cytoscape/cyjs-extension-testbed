@@ -6,16 +6,18 @@ import {Edgehandles} from './edgehandles/Edgehandles.jsx';
 import {Spread} from './spread/Spread.jsx';
 import {Dagre} from './dagre/Dagre.jsx';
 import {Cose} from './cose/Cose.jsx';
+import {Panzoom} from './panzoom/Panzoom.jsx';
 
 export class App extends React.Component {
   render() {
     return (
       <Router history={hashHistory}>
-        <Route path="/edgehandles" component={Edgehandles}/>
-        <Route path="/spread" component={Spread}/>
-        <Route path="/dagre" component={Dagre}/>
-        <Route path="/cose" component={Cose}/>
-        <Route path="*" component={PageNotFound}/>
+        <Route path="edgehandles" component={Edgehandles}/>
+        <Route path="spread" component={Spread}/>
+        <Route path="dagre" component={Dagre}/>
+        <Route path="cose" component={Cose}/>
+        <Route path="panzoom" component={Panzoom}/>
+       <Route path="*" component={PageNotFound}/>
       </Router>
     );
   }
