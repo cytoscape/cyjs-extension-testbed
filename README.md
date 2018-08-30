@@ -1,4 +1,7 @@
 #cyjs-extension-testbed
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/cytoscape/cyjs-extension-testbed.svg)](https://greenkeeper.io/)
+
 For all your ES6 pre-compiled cytoscape extension testing needs
 
 ##Build
